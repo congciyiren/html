@@ -421,3 +421,22 @@ a{font-weight:bold;}
     <p>到了三年级下学期时，我们班上了一节公开课，老师提出了一个很简单的问题，班里很多同学都举手了，甚至成绩比我差很多的，也举手了，还说着："我来，我来。"我环顾了四周，就我没有举手。</p>
 </body>
 </html>
+
+下划线
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title>下划线样式</title>
+<style type="text/css">
+a {
+    text-decoration:underline;    
+}
+span{text-decoration:underline;}
+</style>
+</head>
+
+<body><span>三年级</span>
+<p>三年级时，我还是一个<a>胆小如鼠</a>的小女孩。</p> 
+</body>
+</html>
