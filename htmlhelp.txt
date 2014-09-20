@@ -489,3 +489,21 @@ p{line-height:2em;}
 <p>菲茨杰拉德，二十世纪美国文学巨擘之一，兼具作家和编剧双重身份。他以诗人的敏感和戏剧家的想象为"爵士乐时代"吟唱华丽挽歌，其诗人和梦想家的气质亦为那个奢靡年代的不二注解。</p>
 </body>
 </html>
+
+
+
+字间距
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>字间距</title>
+<style type="text/css">
+h1{letter-spacing:20px;}
+</style>
+</head>
+<body>
+<h1>hello world!你好！</h1>
+</body>
+</html>
+
