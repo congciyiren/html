@@ -117,3 +117,17 @@ document.write("Hello");
 </body>
 </html>
 
+
+变量
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>变量</title>
+<script type="text/javascript">
+ var mynum=8;
+</script>
+</head>
+<body>
+</body>
+</html>
