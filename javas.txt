@@ -32,3 +32,53 @@ document.write("开启JS之旅!");
 <body>
 </body>
 </html>
+
+
+JS的外部文件引用
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>引用JS文件</title>
+<script src="script.js"></script>
+</head>
+<body>
+</body>
+</html>
+
+script.js//请写入JS
+alert("document.write");
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>JS代码的位置</title>
+<script type="text/javascript">
+  document.write("I love");
+</script>
+</head>
+<body>
+<script type="text/javascript">
+ document.write("javascript")
+</script>
+</body>
+</html>
+
+JS在页面中的位置
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>JS代码的位置</title>
+<script type="text/javascript">
+  document.write("I love");
+</script>
+</head>
+<body>
+<script type="text/javascript">
+ document.write("javascript")
+</script>
+</body>
+</html>
