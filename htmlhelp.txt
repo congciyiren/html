@@ -657,3 +657,26 @@ div{
 <div id="box1">盒子1</div>
 </body>
 </html>
+
+
+浮动模型——左浮动
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>浮动模型</title>
+<style type="text/css">
+div{
+	border:2px red solid;
+    width:200px;
+    height:400px;
+	float:left;
+}
+
+</style>
+</head>
+<body>
+<div id="div1">栏目1</div>
+<div id="div2">栏目2</div>
+</body>
+</html>
