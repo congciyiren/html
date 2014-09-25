@@ -1,0 +1,10 @@
+¸ü¸ÄyumÔ´
+1. cd /etc/yum.repos.d
+
+2. mv CentOS-Base.repo CentOS-Base.repo.backup
+
+3. wget http://mirrors.163.com/.help/CentOS6-Base-163.repo
+
+4. mv CentOS6-Base-163.repo CentOS-Base.repo
+
+5.yum clean all
