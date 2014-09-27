@@ -333,3 +333,20 @@ prompt消息对话框
 </form>
 </body>
 </html>
+
+
+关闭窗口 window.close
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>close()</title>
+  <script type="text/javascript">
+     var mywin=window.open("http://www.imooc.com");
+    mywin.close();
+  </script>
+</head>
+<body>
+</body>
+</html>
+
