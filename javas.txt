@@ -210,3 +210,20 @@ document.write() ¿ÉÓÃÓÚÖ±½ÓÏò HTML Êä³öÁ÷Ğ´ÄÚÈİ¡£¼òµ¥µÄËµ¾ÍÊÇÖ±½ÓÔÚÍøÒ³ÖĞÊä³öÄÚÈ
 document.write(mystr+"<br>");//Êä³öhelloºó£¬Êä³öÒ»¸ö»»ĞĞ·û
   document.write("JavaScript");
 </script>
+
+Êä³öÄÚÈİ1
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>document.write</title>
+  <script type="text/javascript">
+    var mystr="ÎÒÊÇ";
+    var mychar="JavaScript";
+    document.write(mychar+"<br>");
+    document.write(mystr+mychar+"µÄÖÒÊµ·ÛË¿")
+  </script>
+</head>
+<body>
+</body>
+</html>
