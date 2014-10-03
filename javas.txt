@@ -366,11 +366,28 @@ prompt消息对话框
 
     //打开的窗口要求，宽400像素，高500像素，无菜单栏、无工具栏。
     
-    
+
+通过id获取元素    
   </script> 
  </head> 
  <body> 
 	  <input type="button" value="新窗口打开网站" onclick="openWindow()" /> 
  </body>
+</html>
+
+
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>document.getElementById</title>
+</head>
+<body>
+<p id="con">JavaScript</p>
+<script type="text/javascript">
+  var mychar=document.getElementById("id")           ;
+  document.write("结果:"+mychar); //输出获取的P标签。 
+</script>
+</body>
 </html>
 
